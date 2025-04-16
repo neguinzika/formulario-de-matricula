@@ -2,18 +2,25 @@
 
   <main>
     <div class="main-container">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, adipisci asperiores consectetur corporis doloremque
-      eius eligendi enim impedit in libero nemo odit perferendis perspiciatis quasi reiciendis tenetur totam velit
-      vitae.
-
+      <div class="back">
+        <img src="../assets/icons/arrow-left-02.svg" alt="icone de voltar">
+        <span>Voltar</span>
+      </div>
+      <h1>Formulário de matrícula</h1>
+      <p>
+        Preencha os dados abaixo para matricular seu filho na escola de educação
+        infantil Estrelas do Amanhã.
+      </p>
     </div>
   </main>
   <aside>
     <div class="aside-container">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, explicabo voluptate! Ab adipisci alias at,
-      corporis dicta dignissimos dolore doloribus eligendi id iure laboriosam numquam quasi recusandae sapiente sed
-      unde.
-
+      <header><img src="../assets/logo.svg" alt="logo estrela do amanhã">
+        <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+        <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente
+          acolhedor, seguro e estimulante.</p>
+      </header>
+      <img src="../assets/pana.svg" alt= "Ilustação de uma professora com crianças">
     </div>
   </aside>
 </template>
