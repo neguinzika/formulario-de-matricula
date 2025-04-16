@@ -27,8 +27,9 @@
           <div class="select-wrapper">
             <label for="gender">Sexo</label>
             <select name="gender" id="gender">
-              <option value="female">Feminino</option>
+              <option value="">Selecione</option>
               <option value="male">Masculino</option>
+              <option value="female">Feminino</option>
               <option value="na">Prefiro não responder</option>
             </select>
           </div>
@@ -73,3 +74,5 @@ export default {
 
 <style src="./global.css"/>
 <style src="./layout.css"/>
+<style src="./forms.css"/>
+<style src="./index.css"/>
