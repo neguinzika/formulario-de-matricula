@@ -91,6 +91,32 @@
           </div>
 
         </fieldset>
+        <fieldset class="guardian">
+          <legend>informações do responsável</legend>
+          <div class="input-wrapper">
+            <label for="guardian">
+              Nome do responsável
+            </label>
+            <input type="text" id="guardian" name="guardian">
+            <small>
+              Principal responsável legal e contato de emergência
+            </small>
+          </div>
+          <div class="input-wrapper">
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(10) 9 8765-4321">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail" required>
+            <div class="error">
+              <img src="../assets/icons/alert-circle.svg" alt="ícone de alerta vermelho">
+              <span> Insira um email válido!</span>
+            </div>
+          </div>
+
+        </fieldset>
       </form>
 
     </div>
