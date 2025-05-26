@@ -117,6 +117,27 @@
           </div>
 
         </fieldset>
+        <fieldset class="enroll-options">
+          <legend>Opções de matrícula</legend>
+          <div class="input-wrapper">
+            <label>Selecione o turno de estudo</label>
+            <div class="radio-wrapper">
+              <div class="radio-inner">
+                <div class="radio-image"></div>
+                <input type="radio" name="study-shift" id="morning" value="morning">
+                <img src="../assets/icons/sun-cloud-02.svg" alt="">
+                <label for="morning">Manhã</label>
+              </div>
+
+              <div class="radio-inner">
+                <div class="radio-image"></div>
+                <input type="radio" name="study-shift" id="evening" value="evening">
+                <img src="../assets/icons/sun-02.svg" alt="">
+                <label for="evenings">Tarde</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
       </form>
 
     </div>
@@ -147,5 +168,7 @@ export default {
 <style src="./global.css"/>
 <style src="./layout.css"/>
 <style src="./forms.css"/>
+<style src="./input.css"/>
 <style src="./index.css"/>
 <style src="./droparea.css"/>
+<style src="./radio.css"/>
