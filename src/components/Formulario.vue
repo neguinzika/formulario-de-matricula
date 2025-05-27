@@ -192,7 +192,10 @@
               Privacidade</strong> da escola Estrela do Amanhã.
             </label>
           </div>
-
+<div class="actions-wrapper">
+<button class="btn-secondary" type="button">Salvar Respostas</button>
+  <button class="btn-primary" type="submit">Fazer Matrícula</button>
+</div>
         </fieldset>
       </form>
 
@@ -229,3 +232,4 @@ export default {
 <style src="./droparea.css"/>
 <style src="./radio.css"/>
 <style src="./checkbox.css"/>
+<style src="./buttons.css"/>
