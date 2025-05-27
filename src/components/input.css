@@ -25,7 +25,7 @@ textarea:focus {
     outline-offset: .1px;
 }
 
-.input-wrapper:nth-child(3) {
+.input-wrapper-date {
     position: relative;
     ::before {
         inset: inherit;

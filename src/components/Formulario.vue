@@ -20,7 +20,7 @@
             <input type="text" name="fullname" id="fullname"
                    placeholder="Qual nome da criança">
           </div>
-          <div class="input-wrapper">
+          <div class="input-wrapper-date">
             <label for="birth">Data de nascimento</label>
             <input type="date" name="birth" id="birth" lang="pt-BR">
           </div>
@@ -103,8 +103,9 @@
             </small>
           </div>
           <div class="input-wrapper">
-            <label for="phone">Telefone</label>
-            <input type="tel" id="phone" name="phone" placeholder="(10) 9 8765-4321">
+            <label for="phone">Telefone
+              <input type="tel" id="phone" name="phone" placeholder="(10) 9 8765-4321">
+            </label>
           </div>
 
           <div class="input-wrapper">
@@ -137,6 +138,54 @@
               </div>
             </div>
           </div>
+          <div class="input-wrapper">
+            <label>Em qual esporte você gostaria de inscrever seu filho?</label>
+            <div class="radio-wrapper">
+            <div class="radio-inner">
+              <div class="radio-image"></div>
+              <input type="radio" name="sport" id="football">
+              <img src="../assets/icons/football.svg" alt="ícone de futebol">
+              <label for="football">Futebol</label>
+            </div>
+
+            <div class="radio-inner">
+              <div class="radio-image"></div>
+              <input type="radio" name="sport" id="basketball">
+              <img src="../assets/icons/basketball-02.svg" alt="ícone de Basquete">
+              <label for="basketball">Basquete</label>
+            </div>
+
+            <div class="radio-inner">
+              <div class="radio-image"></div>
+              <input type="radio" name="sport" id="swimming">
+              <img src="../assets/icons/swimming.svg" alt="ícone de nataçao">
+              <label for="swimming">Nataçao</label>
+            </div>
+
+            <div class="radio-inner">
+              <div class="radio-image"></div>
+              <input type="radio" name="sport" id="yoga">
+              <img src="../assets/icons/yoga-02.svg" alt="ícone de Yoga">
+              <label for="yoga">Yoga</label>
+            </div>
+
+            <div class="radio-inner">
+              <div class="radio-image"></div>
+              <input type="radio" name="sport" id="volleyball">
+              <img src="../assets/icons/volleyball.svg" alt="ícone de Volei">
+              <label for="volleyball">Volêi</label>
+            </div>
+
+              <div class="radio-inner">
+                <div class="radio-image"></div>
+                <input type="radio" name="sport" id="boxing">
+                <img src="../assets/icons/boxing-glove-01.svg" alt="ícone de Boxe">
+                <label for="boxing">Boxe</label>
+              </div>
+            </div>
+          </div>
+
+
         </fieldset>
       </form>
 
